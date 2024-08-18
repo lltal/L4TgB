@@ -87,6 +87,7 @@ send keyboard to user, or if registered customClickHandler, then cbValue will be
 Library is required Java 17, Lombok 1.18.24 in classpath and plugins
 'org.springframework.boot:spring-boot-gradle-plugin:3.1.1','io.spring.gradle:dependency-management-plugin:1.1.1'
 
+If you have any questions or issues - contact me in tg - @Sheduled 
 
 ##### Sorry for gramma errors, English is not my first language:)
 
