@@ -1,0 +1,24 @@
+package com.github.lltal.filler.shared.annotation;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target({
+        ElementType.FIELD
+})
+public @interface Button {
+    /**
+     * Текст, который будет показан пользователю
+     */
+    String userView();
+
+    /**
+     * Данные колбека, которые вернутся при нажатии на кнопку
+     */
+    String cbValue();
+
+    String customClickHandler() default "";
+}

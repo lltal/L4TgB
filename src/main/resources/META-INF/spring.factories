@@ -1,0 +1,8 @@
+org.springframework.context.ApplicationContextInitializer=\
+    com.github.lltal.filler.shared.config.FillerContextInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.github.lltal.filler.shared.config.FillerConfig
+
+org.springframework.boot.env.EnvironmentPostProcessor=\
+    com.github.lltal.filler.shared.config.FillerEnvironmentPostProcessor
