@@ -27,7 +27,6 @@ dependencies {
     implementation(fileTree(dir: 'libs', include: ['*.jar']))
 
     implementation 'org.springframework.boot:spring-boot-starter'
-    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 
     implementation group: 'org.reflections', name: 'reflections', version: '0.10.2'
     implementation group: 'org.telegram', name: 'telegrambots', version: '6.5.0'
@@ -44,5 +43,5 @@ bootJar {
 
 jar {
     enabled = true
-    archiveFileName = "l4fill-${project.version}.jar"
+    archiveClassifier = ''
 }
