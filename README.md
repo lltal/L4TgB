@@ -3,7 +3,7 @@
 A library for routing user commands sent to the bot  
 and managing the completion of data transfer objects between the user and the bot
 
-### Problem solved by the library
+## Problem solved by the library
 
 When conducting a dialog interaction between a user 
 and a bot, the user sends commands, data, or data as part
@@ -83,11 +83,15 @@ for current cbValue or handle in @CommandNames in method, marked @CommandOther, 
 send keyboard to user, or if registered customClickHandler, then cbValue will be sent to there.
 3. customCLickHandler - own button click handler bean name, if registered, then handle button click.
 
-## P.S.
-Library is required Java 17, Lombok 1.18.24 in classpath and plugins
-'org.springframework.boot:spring-boot-gradle-plugin:3.1.1','io.spring.gradle:dependency-management-plugin:1.1.1'
+### How to specify packages to scan
 
-If you have any questions or issues - contact me in tg - @Sheduled 
+In .yaml or .properties file:
+
+dto-filler:
+  packages-to-scan:
+    - "package1"
+    - "package2"
+
 
 ##### Sorry for gramma errors, English is not my first language:)
 
