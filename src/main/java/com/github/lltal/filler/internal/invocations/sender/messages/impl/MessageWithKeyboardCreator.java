@@ -4,7 +4,6 @@ import com.github.lltal.filler.internal.invocations.sender.messages.MessageCreat
 import org.telegram.telegrambots.meta.api.methods.BotApiMethod;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboard;
-import ru.wdeath.telegram.bot.starter.command.CommandContext;
 
 public class MessageWithKeyboardCreator implements MessageCreator {
     private final String text;

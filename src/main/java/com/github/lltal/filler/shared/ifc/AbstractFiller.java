@@ -1,6 +1,5 @@
 package com.github.lltal.filler.shared.ifc;
 
-import ru.wdeath.telegram.bot.starter.command.CommandContext;
 
 public interface AbstractFiller {
     /**

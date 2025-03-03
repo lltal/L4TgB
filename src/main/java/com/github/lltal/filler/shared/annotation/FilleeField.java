@@ -2,7 +2,6 @@ package com.github.lltal.filler.shared.annotation;
 
 import com.github.lltal.filler.shared.ifc.AbstractSender;
 import com.github.lltal.filler.shared.ifc.Countable;
-import ru.wdeath.telegram.bot.starter.command.CommandContext;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

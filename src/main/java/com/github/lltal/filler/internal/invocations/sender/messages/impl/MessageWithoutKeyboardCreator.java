@@ -3,7 +3,6 @@ package com.github.lltal.filler.internal.invocations.sender.messages.impl;
 import com.github.lltal.filler.internal.invocations.sender.messages.MessageCreator;
 import org.telegram.telegrambots.meta.api.methods.BotApiMethod;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
-import ru.wdeath.telegram.bot.starter.command.CommandContext;
 
 public class MessageWithoutKeyboardCreator implements MessageCreator {
 
