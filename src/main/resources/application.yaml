@@ -1,0 +1,11 @@
+telegram:
+  bot:
+    username: "name"
+    token: "token"
+    session:
+      enable: true
+      time-life:
+        chat: 60
+        user: 10
+
+
