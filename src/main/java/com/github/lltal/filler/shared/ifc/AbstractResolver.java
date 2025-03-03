@@ -7,7 +7,6 @@ import org.springframework.lang.Nullable;
 
 /**
  * Интерфейс, описывающий методы заполнителя
- * @param <T> Объект, обычно DTO, которое надо заполнить.
  */
 public interface AbstractResolver {
     /**
