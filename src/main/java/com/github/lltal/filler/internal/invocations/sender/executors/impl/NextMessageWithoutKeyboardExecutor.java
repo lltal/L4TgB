@@ -5,7 +5,6 @@ import com.github.lltal.filler.internal.invocations.common.pojo.DtoFieldInfo;
 import com.github.lltal.filler.internal.invocations.sender.extractors.RuntimeTextExtractor;
 import com.github.lltal.filler.shared.ifc.Countable;
 import org.telegram.telegrambots.meta.api.methods.BotApiMethod;
-import ru.wdeath.telegram.bot.starter.command.CommandContext;
 
 import java.util.Map;
 

@@ -1,15 +1,9 @@
 package com.github.lltal.filler.shared.ifc;
 
 import com.github.lltal.filler.shared.annotation.Button;
-import com.github.lltal.filler.shared.annotation.Fillee;
 import com.github.lltal.filler.shared.annotation.FilleeField;
-import com.github.lltal.filler.shared.annotation.Keyboard;
+import com.github.lltal.filler.starter.command.CommandContext;
 import org.springframework.lang.Nullable;
-import org.telegram.telegrambots.meta.api.methods.BotApiMethod;
-import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
-import ru.wdeath.telegram.bot.starter.command.CommandContext;
-
-import java.util.List;
 
 /**
  * Интерфейс, описывающий методы заполнителя

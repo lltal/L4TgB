@@ -24,9 +24,8 @@ compileTestJava {
 }
 
 dependencies {
-    implementation(fileTree(dir: 'libs', include: ['*.jar']))
 
-    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation('org.springframework.boot:spring-boot-starter') {transitive = true}
 
     implementation group: 'org.reflections', name: 'reflections', version: '0.10.2'
     implementation group: 'org.telegram', name: 'telegrambots', version: '6.5.0'

@@ -4,7 +4,7 @@ import com.github.lltal.filler.internal.invocations.common.ifc.MethodExecutor;
 import com.github.lltal.filler.internal.invocations.common.pojo.DtoFieldInfo;
 import com.github.lltal.filler.internal.invocations.common.annotations.ButtonAnnotationHandler;
 import com.github.lltal.filler.shared.ifc.Countable;
-import ru.wdeath.telegram.bot.starter.command.CommandContext;
+import com.github.lltal.filler.starter.command.CommandContext;
 
 import java.util.Map;
 

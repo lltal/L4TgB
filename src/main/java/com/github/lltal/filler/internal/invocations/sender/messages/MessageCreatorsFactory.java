@@ -7,9 +7,10 @@ import com.github.lltal.filler.internal.invocations.sender.messages.impl.Message
 import com.github.lltal.filler.internal.invocations.sender.messages.impl.MessageWithoutKeyboardCreator;
 import com.github.lltal.filler.shared.annotation.FilleeField;
 import com.github.lltal.filler.shared.annotation.Keyboard;
-import ru.wdeath.telegram.bot.starter.callback.CallbackData;
-import ru.wdeath.telegram.bot.starter.callback.CallbackDataSender;
-import ru.wdeath.telegram.bot.starter.util.KeyboardUtil;
+import com.github.lltal.filler.starter.callback.CallbackData;
+import com.github.lltal.filler.starter.callback.CallbackDataSender;
+import com.github.lltal.filler.starter.util.KeyboardUtil;
+
 
 import java.lang.reflect.Field;
 import java.util.Arrays;

@@ -4,5 +4,8 @@ org.springframework.context.ApplicationContextInitializer=\
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
     com.github.lltal.filler.shared.config.FillerConfig
 
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    ru.wdeath.telegram.bot.starter.InitTelegramBotStarter
+
 org.springframework.boot.env.EnvironmentPostProcessor=\
     com.github.lltal.filler.shared.config.FillerEnvironmentPostProcessor
