@@ -21,6 +21,12 @@ public class ManagerCommandAndSessionGroupService {
     private final ManagerCommandContainerService commandContainerService;
     private final ObjectMapper jsonMapper;
 
+    public ManagerCommandAndSessionGroupService(final SessionManagerService sessionManagerService, final ManagerCommandContainerService commandContainerService, final ObjectMapper jsonMapper) {
+        this.sessionManagerService = sessionManagerService;
+        this.commandContainerService = commandContainerService;
+        this.jsonMapper = jsonMapper;
+    }
+
     public void processingCommand(TelegramLongPollingEngine engine, Update update) {
         CommandContext contextCommand = this.createContextCommand(engine, update);
         if (contextCommand != null) {
@@ -138,12 +144,6 @@ public class ManagerCommandAndSessionGroupService {
             commandContainer.executeFirst(commandContext);
         }
 
-    }
-
-    public ManagerCommandAndSessionGroupService(final SessionManagerService sessionManagerService, final ManagerCommandContainerService commandContainerService, final ObjectMapper jsonMapper) {
-        this.sessionManagerService = sessionManagerService;
-        this.commandContainerService = commandContainerService;
-        this.jsonMapper = jsonMapper;
     }
 }
 
