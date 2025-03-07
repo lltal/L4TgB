@@ -27,9 +27,9 @@ compileTestJava {
 dependencies {
 
     api 'org.springframework.boot:spring-boot-starter'
+    api group: 'org.telegram', name: 'telegrambots', version: '6.5.0'
 
     implementation group: 'org.reflections', name: 'reflections', version: '0.10.2'
-    implementation group: 'org.telegram', name: 'telegrambots', version: '6.5.0'
 
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
