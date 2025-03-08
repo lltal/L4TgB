@@ -21,5 +21,6 @@ public class FilleeFieldHandlerImpl implements FilleeHandler {
 
         field.setAccessible(true);
         field.set(dto, value);
+        dto.setCount(dto.getCount() + 1);
     }
 }
