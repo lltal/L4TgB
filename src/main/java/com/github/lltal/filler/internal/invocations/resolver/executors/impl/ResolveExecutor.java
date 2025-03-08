@@ -42,7 +42,7 @@ public class ResolveExecutor implements MethodExecutor {
 
         } else {
 
-            fieldInfo.getFilleeHandler().handleField((Countable) args[0], context.getData());
+            fieldInfo.getFilleeHandler().handleField((Countable) args[0], context.getName());
         }
     }
 }
