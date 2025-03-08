@@ -2,10 +2,11 @@ org.springframework.context.ApplicationContextInitializer=\
     com.github.lltal.filler.shared.config.FillerContextInitializer
 
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-    com.github.lltal.filler.shared.config.FillerConfig
-
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.github.lltal.filler.shared.config.FillerConfig, \
     com.github.lltal.filler.starter.InitTelegramBotStarter
 
 org.springframework.boot.env.EnvironmentPostProcessor=\
     com.github.lltal.filler.shared.config.FillerEnvironmentPostProcessor
+
+org.springframework.context.ApplicationListener=\
+    com.github.lltal.filler.internal.config.listeners.SetterApplicationListener
